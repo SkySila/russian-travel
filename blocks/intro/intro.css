@@ -1,0 +1,7 @@
+.intro {
+  /*grid-column-start: 1;
+  grid-row-start: 2;
+  justify-self: center;*/
+  max-width: 690px;
+  max-height: 429px;
+}
