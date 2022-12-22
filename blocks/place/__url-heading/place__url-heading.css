@@ -1,0 +1,10 @@
+.place__url-heading {
+  max-width: 456px;
+  max-height: 12px;
+  color: #aaa;
+  font-family: "InterRegular";
+  font-size: 12px;
+  line-height: 1.0;
+  letter-spacing: 2px;
+  -webkit-font-smoothing: antialiased;
+}

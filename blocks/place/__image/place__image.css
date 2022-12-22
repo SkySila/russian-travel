@@ -1,0 +1,4 @@
+.place__image {
+  grid-column-start: 1;
+  grid-row-start: 2;
+}
