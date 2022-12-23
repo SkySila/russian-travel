@@ -1,0 +1,15 @@
+.footer__link {
+  max-height: 18px;
+  text-decoration: none;
+  color: #fff;
+  font-family: "InterRegular";
+  font-size: 16px;
+  line-height: 1.125;
+  text-align: left;
+  -webkit-font-smoothing: antialiased;
+  opacity: 1;
+}
+
+.footer__link:hover {
+  opacity: 0.8;
+}
