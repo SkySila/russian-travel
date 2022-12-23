@@ -1,4 +1,7 @@
 .footer__links {
   max-width: max-content;
-  display: inline-block;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(min-content, max-content));
+  grid-template-rows: repeat(1,minmax(min-content, max-content));
+  column-gap: 18px;
 }
