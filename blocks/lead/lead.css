@@ -1,9 +1,6 @@
 .lead {
-    /*grid-column-start: 1;
-    grid-row-start: 1;
-    justify-self: stretch; 
-    */
     max-width: 984px;
-    display: flex;
-    flex-direction: column;
+    width: 100%;
+    grid-column: 1/-1;
+    grid-row-start: 1;
 }

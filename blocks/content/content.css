@@ -1,11 +1,12 @@
 .content {
+  background-color: #2a2c2f;
+  max-width: 1184px;
   grid-column-start: 2;
   grid-row-start: 4;
-  /*
   display: grid;
-  grid-template-columns: 1184px;
-  grid-template-rows: 1005px 429px;
+  grid-template-columns: 100px 984px 100px;
+  grid-template-rows: minmax(min-content, 1005px) minmax(min-content, 429px) minmax(min-content, 671px) 
+  minmax(min-content, 3392px) minmax(min-content, 740px);
+  row-gap: 92px;
   justify-items: center;
-  */
-  background-color: #2a2c2f;
 }

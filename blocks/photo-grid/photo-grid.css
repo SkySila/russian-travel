@@ -3,6 +3,8 @@
   width: 100%;
   max-height: 671px;
   height: 100%; 
+  grid-column: 1/-1;
+  grid-row-start: 3;
   background-color:#2a2c2f;
   box-sizing: border-box;
   display: grid;

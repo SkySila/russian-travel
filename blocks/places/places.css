@@ -1,5 +1,7 @@
 .places {
   max-width: 984px;
+  grid-column: 1/-1;
+  grid-row-start: 4;
   display: grid;
   grid-template-columns: repeat(1, minmax(min-content, max-content));
   grid-template-rows: repeat(5, minmax(min-content, max-content));
