@@ -3,8 +3,7 @@
     background-color: #2a2c2f;
     display: flex;
     flex-direction: column;
-    padding-top: 28px;
-    /*display: grid;
+    display: grid;
     grid-template-columns: 48px 1184px 48px;
-    grid-template-rows: 28px 52px 56px 6795px; */
+    grid-template-rows: 28px 52px 56px minmax(min-content, max-content) 92px 18px 24px;
 }
