@@ -1,10 +1,14 @@
 .intro__list {
   margin: 0;
   padding: 0;
+  max-width: 690px;
+  width: 100%;
+  min-height: 90px;
   list-style: none;
   color: #fff;
   font-family: "InterBold";
   font-size: 12px;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  justify-self: end;
 }
