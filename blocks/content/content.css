@@ -1,11 +1,11 @@
 .content {
   background-color: #2a2c2f;
   max-width: 1184px;
-  box-sizing: border-box;
+  width: 100%;
   grid-column-start: 2;
   grid-row-start: 4;
   display: grid;
-  grid-template-columns: 100px 984px 100px;
+  grid-template-columns: calc((100% - 984px)/2) minmax(928px, 1fr) calc((100% - 984px)/2);
   grid-template-rows: minmax(min-content, 1005px) minmax(min-content, 429px) minmax(min-content, 671px) 
   minmax(min-content, 3392px) minmax(min-content, 740px);
   row-gap: 92px;

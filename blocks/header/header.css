@@ -2,7 +2,7 @@
     grid-column-start: 2;
     grid-row-start: 2;
     max-width: 1184px;
-    width: 100%;
+    width: calc(100vw - 96px);
     box-sizing: border-box;
     max-height: 52px;
     height: 100%;
