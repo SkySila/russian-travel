@@ -4,7 +4,7 @@
     background-image: url(../../../images/header__logo.svg);
     background-size: contain;
     background-repeat: no-repeat;
-    position: absolute;
+    /*position: absolute;
     top: 28px;
-    left: 48px;
+    left: 48px;*/
 }
