@@ -11,3 +11,9 @@
   grid-column-start: 1;
   grid-row-start: 1;
 }
+
+@media screen and (max-width: 1024px) {
+  .place__title {
+    max-width: 440px;
+  }
+}

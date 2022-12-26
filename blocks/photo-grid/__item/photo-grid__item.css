@@ -2,3 +2,10 @@
   max-width: 284px;
   width: 100%;
 }
+
+@media screen and (max-width: 1024px) {
+  .photo-grid__item {
+    max-width: 300px;
+    width: 100%;
+  }
+}

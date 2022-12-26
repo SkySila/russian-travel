@@ -7,3 +7,10 @@
     grid-template-rows: repeat(2, minmax(min-content, max-content));
     row-gap: 26px;
 }
+
+@media screen and (max-width: 1024px) {
+  .place__text {
+    max-width: 456px;
+    row-gap: 27px;
+  } 
+}
