@@ -4,7 +4,7 @@
     max-width: 360px;
     min-height: 66px;
     position: absolute;
-    top: calc(100%*(429/740));
+    bottom: calc(100%*(245/740));
     margin: 0 auto;
     right: 0;
     left: 0;
@@ -15,4 +15,10 @@
     line-height: 22px;
     text-align: center;
     -webkit-font-smoothing: antialiased;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__subtitle {
+    bottom: calc(100%*(195/640));
+  }
 }

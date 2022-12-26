@@ -3,7 +3,7 @@
     background-color: #2a2c2f;
     box-sizing: border-box;
     display: grid;
-    grid-template-columns: 48px minmax(calc((100% - 96px)), 1184px) 48px;
+    grid-template-columns: 48px minmax(calc(100% - 96px), 1184px) 48px;
     grid-template-rows: 28px 52px 56px minmax(min-content, max-content) 92px 18px 24px;
     justify-items: center;
 }

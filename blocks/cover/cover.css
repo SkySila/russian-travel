@@ -2,7 +2,16 @@
     max-width: 1184px;
     width: 100%;
     max-height: 740px;
+    height: 100%;
     grid-column: 1/-1;
     grid-row-start: 5;
     position: relative;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    max-width: 1024px;
+    max-height: 640px;
+    height: 100%;
+  }
 }
