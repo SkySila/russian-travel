@@ -8,3 +8,10 @@
   display: grid;
   justify-items: start;
 }
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    grid-column: 1;
+    max-width: 690px;
+  }
+}

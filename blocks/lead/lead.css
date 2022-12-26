@@ -8,6 +8,7 @@
 @media screen and (max-width: 1024px) {
   .lead {
     max-width: 928px;
-    grid-column: 1/2;
+    grid-column: 1;
+    justify-self: start;
   }
 }

@@ -8,5 +8,7 @@
   font-family: "InterRegular";
   font-size: 16px;
   line-height: 1.63;
+  text-align: left;
+  vertical-align: top;
   -webkit-font-smoothing: antialiased;
 }
