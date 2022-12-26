@@ -6,3 +6,10 @@
   top: calc((100% * 90.21)/615);
   left: calc((100% *23.27)/984);
 }
+
+@media screen and (max-width: 1024px) {
+  .lead__image_route {
+    max-width: 883.76px;
+    max-height: 248.02px;
+  }
+}

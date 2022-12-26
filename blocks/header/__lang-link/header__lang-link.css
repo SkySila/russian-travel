@@ -1,7 +1,7 @@
 .header__lang-link {
   max-width: 30px;
   width: 100%;
-  max-height: 28px;
+  min-height: 28px;
   font-family: "InterRegular";
   font-size: 24px;
   color: #fff;

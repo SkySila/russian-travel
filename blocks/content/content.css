@@ -6,8 +6,14 @@
   grid-row-start: 4;
   display: grid;
   grid-template-columns: calc((100% - 984px)/2) minmax(928px, 1fr) calc((100% - 984px)/2);
-  grid-template-rows: minmax(min-content, 1005px) minmax(min-content, 429px) minmax(min-content, max-content)
-  minmax(min-content, 3392px) minmax(min-content, max-content);
+  grid-template-rows: minmax(min-content, max-content) minmax(min-content, max-content) minmax(min-content, max-content)
+  minmax(min-content, max-content) minmax(min-content, max-content);
   row-gap: 92px;
   justify-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .content {
+    grid-template-columns: fit-content(928px); /*minmax(min-content, 928px);*/
+  }
 }
