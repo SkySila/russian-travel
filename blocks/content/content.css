@@ -18,3 +18,8 @@
     grid-template-columns: 48px fit-content(928px) 48px; /*minmax(min-content, 928px);*/
   }
 }
+
+@media screen and (max-width: 768px) {
+  .content {
+  }
+}
