@@ -1,4 +1,6 @@
 .intro__list_font_thin {
   font-family: "InterRegular";
+  text-align: left;
+  vertical-align: top;
   -webkit-font-smoothing: antialiased;
 }

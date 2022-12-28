@@ -11,7 +11,12 @@
 
 @media screen and (max-width: 1024px) {
   .intro {
-    grid-column: 2/3;
     max-width: 690px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    max-width: 720px;
   }
 }

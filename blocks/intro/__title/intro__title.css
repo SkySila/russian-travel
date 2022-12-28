@@ -2,10 +2,30 @@
   margin: 0;
   padding: 0;
   max-width: 690px;
+  width: 100%;
   max-height: 58px;
   color: #fff;
   font-family: "InterBlack";
   font-size: 54px;
   line-height: 58px;
+  text-align: left;
+  vertical-align: top;
   -webkit-font-smoothing: antialiased;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro__title {
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro__title {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro__title {
+    
+  }
 }

@@ -9,11 +9,26 @@
   font-family: "InterBold";
   font-size: 12px;
   line-height: 1.5;
+  text-align: left;
+  vertical-align: top;
   -webkit-font-smoothing: antialiased;
   justify-self: end;
 }
 
 @media screen and (max-width: 1024px) {
+  .intro__list {
+    justify-self: start;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro__list {
+    justify-self: start;
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 320px) {
   .intro__list {
     justify-self: start;
   }
