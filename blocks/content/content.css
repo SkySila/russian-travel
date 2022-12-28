@@ -25,3 +25,10 @@
     row-gap: 88px;  
   }
 }
+
+@media screen and (max-width: 320px) {
+  .content {
+    grid-template-columns: 16px fit-content(320px) 16px;
+    row-gap: 64px;  
+  }
+}
