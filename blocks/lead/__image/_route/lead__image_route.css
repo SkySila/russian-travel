@@ -24,3 +24,12 @@
     left: calc(100% * (18.160/768));
   }
 }
+
+@media screen and (max-width: 320px) {
+  .lead__image_route {
+    max-width: 304.74px;
+    max-height: 85.53px;
+    top: calc(100% * (29.34/200));
+    left: calc(100% * (7.57/320));
+  }
+}
