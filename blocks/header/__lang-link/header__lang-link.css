@@ -7,6 +7,27 @@
   line-height: 28px;
   color: #fff;
   text-decoration: none;
+  text-align: right;
+  vertical-align: top;
   position: absolute;
   top: 18px;
+}
+
+@media screen and (max-width: 1024px) {
+  .header__lang-link {
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__lang-link {
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header__lang-link {
+    max-width: 22px;
+    min-height: 20px;
+    font-size: 18px;
+    line-height: 20px;
+  }
 }
