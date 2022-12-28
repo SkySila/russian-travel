@@ -3,11 +3,25 @@
   padding: 0;
   margin-bottom: 12px;
   max-width: 456px;
+  width: 100%;
   max-height: 12px;
   color: #aaa;
   font-family: "InterRegular";
   font-size: 12px;
   line-height: 1.0;
   letter-spacing: 2px;
+  text-align: left;
+  vertical-align: top;
   -webkit-font-smoothing: antialiased;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__url-heading {
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__url-heading {
+    max-width: 352px;
+  }
 }

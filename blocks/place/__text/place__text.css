@@ -14,3 +14,10 @@
     row-gap: 27px;
   } 
 }
+
+@media screen and (max-width: 768px) {
+  .place__text {
+    max-width: 352px;
+    row-gap: 25px;
+  } 
+}
