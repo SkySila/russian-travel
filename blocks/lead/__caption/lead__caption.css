@@ -8,6 +8,20 @@
   line-height: 1.4;
   font-family: "InterRegular";
   letter-spacing: 1.5px;
+  text-align: left;
+  vertical-align: top;
   -webkit-font-smoothing: antialiased;
   white-space: nowrap;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__caption {
+
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__caption {
+    margin-left: 24px;
+  }
 }

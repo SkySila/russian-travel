@@ -5,9 +5,19 @@
     font-size: 96px;
     line-height: 100px;
     text-align: center;
+    vertical-align: top;
     color: #fff;
     max-width: 720px;
     max-height: 200px;
-    flex-basis: 720px;
     margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__title {
+  }
+}
+  
+@media screen and (max-width: 768px) {
+  .lead__title {     
+  }
 }

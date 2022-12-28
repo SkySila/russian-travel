@@ -12,3 +12,10 @@
     justify-self: start;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .lead {
+    max-width: 768px;
+    grid-column: 1/-1;
+  }
+}
