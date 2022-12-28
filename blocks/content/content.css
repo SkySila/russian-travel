@@ -21,6 +21,7 @@
 
 @media screen and (max-width: 768px) {
   .content {
-    grid-template-columns: 24px fit-content(720px) 24px;  
+    grid-template-columns: 24px fit-content(720px) 24px;
+    row-gap: 88px;  
   }
 }
