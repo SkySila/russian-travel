@@ -22,3 +22,9 @@
     bottom: calc(100%*(195/640));
   }
 }
+
+@media screen and (max-width: 768px) {
+  .cover__subtitle {
+    bottom: calc(100%*(115/480));
+  }
+}
