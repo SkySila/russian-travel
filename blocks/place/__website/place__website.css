@@ -18,3 +18,11 @@
     max-width: 352px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .place__website {
+    max-width: 288px;
+    grid-column: 2/3;
+    grid-row: 2;
+  }
+}

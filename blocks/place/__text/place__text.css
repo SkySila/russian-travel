@@ -2,6 +2,7 @@
     grid-column-start: 2;
     grid-row-start: 2;
     max-width: 484px;
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, minmax(min-content, max-content));
@@ -19,5 +20,14 @@
   .place__text {
     max-width: 352px;
     row-gap: 25px;
+  } 
+}
+
+@media screen and (max-width: 320px) {
+  .place__text {
+    max-width: 288px;
+    row-gap: 25px;
+    grid-column: 2/3;
+    grid-row: 4;
   } 
 }

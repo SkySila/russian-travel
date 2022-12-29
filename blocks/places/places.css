@@ -21,3 +21,11 @@
     row-gap: 73px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .places {
+    max-width: 320px;
+    row-gap: 50px;
+    grid-column: 1/-1;
+  }
+}
