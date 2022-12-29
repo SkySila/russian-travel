@@ -1,4 +1,5 @@
 .footer__link {
+  width: min-content;
   max-height: 18px;
   text-decoration: none;
   color: #fff;
@@ -13,4 +14,22 @@
 
 .footer__link:hover {
   opacity: 0.8;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer__link {
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer__link {
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer__link {
+    max-height: 24px;
+    font-size: 24px;
+    line-height: 1.0;
+  }
 }

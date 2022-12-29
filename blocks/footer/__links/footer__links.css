@@ -5,3 +5,21 @@
   grid-template-rows: repeat(1, minmax(min-content, max-content));
   column-gap: 18px;
 }
+
+@media screen and (max-width: 1024px) {
+  .footer__links {
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer__links {  
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer__links {
+    grid-template-columns: repeat(1, minmax(min-content, max-content));
+    grid-template-rows: repeat(5, minmax(min-content, max-content));
+    gap: 32px 0;
+  }
+}
