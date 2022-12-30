@@ -12,4 +12,6 @@
 
 **Используемые технологии**
 Grid layout, flexbox адаптивная вёрстка, абсолютное и относительное позиционирование, семантика HTML. 
+
 **Ссылка этого проекта на GitHub Pages**
+https://github.com/SkySila/russian-travel/settings/pages#:~:text=https%3A//skysila.github.io/russian%2Dtravel/
