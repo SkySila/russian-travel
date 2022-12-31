@@ -9,6 +9,11 @@
   vertical-align: top;
   line-height: 22px;
   -webkit-font-smoothing: antialiased;
+  opacity: 1;
+}
+
+.place__link:hover {
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 1024px) {
