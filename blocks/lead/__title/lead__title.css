@@ -1,14 +1,14 @@
 .lead__title {
     margin: 0;
     padding: 0;
+    max-width: 720px;
+    min-height: 200px;
     font-family: "InterBlack";
     font-size: 96px;
     line-height: 100px;
     text-align: center;
     vertical-align: top;
     color: #fff;
-    max-width: 720px;
-    max-height: 200px;
     margin: 0 auto;
 }
 
@@ -25,6 +25,7 @@
 @media screen and (max-width: 320px) {
   .lead__title {
     max-width: 288px;
+    min-height: 88px;
     font-size: 40px;
     line-height: 44px;     
   }
