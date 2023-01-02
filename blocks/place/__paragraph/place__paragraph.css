@@ -6,7 +6,7 @@
   color: #fff;
   text-align: left;
   vertical-align: top;
-  font-family: "InterRegular";
+  font-family: "InterRegular", "Arial", "Helvetica", sans-serif;
   font-size: 18px;
   line-height: 1.63;
   -webkit-font-smoothing: antialiased;

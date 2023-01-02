@@ -2,13 +2,14 @@
   max-width: 30px;
   width: 100%;
   min-height: 28px;
-  font-family: "InterRegular";
+  font-family: "InterRegular", "Arial", "Helvetica", sans-serif;
   font-size: 24px;
   line-height: 28px;
   color: #fff;
   text-decoration: none;
   text-align: right;
   vertical-align: top;
+  -webkit-font-smoothing: antialiased;
   position: absolute;
   top: 18px;
 }
