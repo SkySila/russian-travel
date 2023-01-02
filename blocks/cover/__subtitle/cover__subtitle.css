@@ -10,6 +10,7 @@
     right: 0;
     left: 0;
     z-index: 1;
+    pointer-events: none;
     color: #fff;
     font-family: "InterRegular";
     font-size: 18px;
