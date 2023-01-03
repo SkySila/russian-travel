@@ -1,12 +1,13 @@
 .cover__subtitle {
-    margin: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin: 0 auto;
     padding: 0;
     max-width: 360px;
     width: 100%;
     min-height: 66px;
     position: absolute;
     bottom: calc(100%*(245/740));
-    margin: 0 auto;
     right: 0;
     left: 0;
     z-index: 1;
