@@ -17,7 +17,7 @@
 
 @media screen and (max-width: 768px) {
   .page {
-    grid-template-columns: 24px minmax(calc(100% - 48px), 768px) 24px;   
+    grid-template-columns: 24px minmax(calc(100% - 48px), 768px) 24px;
     grid-template-rows: 28px 52px 48px minmax(min-content, max-content) 88px minmax(min-content, max-content) 24px;
   }
 }
