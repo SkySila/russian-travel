@@ -3,7 +3,10 @@
   padding: 0;
   max-width: 640px;
   min-height: 72px;
-  margin: 32px auto 64px;
+  margin-top: 32px;
+  margin-bottom: 64px;
+  margin-left: auto;
+  margin-right: auto;
   color: #fff;
   font-family: "InterRegular", "Arial", "Helvetica", sans-serif;
   font-size: 30px;

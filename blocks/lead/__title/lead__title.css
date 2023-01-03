@@ -10,7 +10,8 @@
     vertical-align: top;
     -webkit-font-smoothing: antialiased;
     color: #fff;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media screen and (max-width: 1024px) {
