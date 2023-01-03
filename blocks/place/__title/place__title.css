@@ -28,6 +28,9 @@
     font-size: 42px;
     line-height: 46px;
   }
+  .place:nth-of-type(4) > .place__title {
+    width: max-content;
+  }
 }
 
 @media screen and (max-width: 320px) {
