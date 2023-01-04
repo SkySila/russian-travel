@@ -3,12 +3,12 @@
     padding: 0;
     max-width: 560px;
     width: 100%;
-    position: absolute;
+    /*position: absolute;
     top: calc(100%*(245/740));
     right: 0;
     left: 0;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: auto;*/
     z-index: 1;
     pointer-events: none;
     color: #fff;
@@ -18,17 +18,21 @@
     text-align: center;
     vertical-align: top;
     -webkit-font-smoothing: antialiased;
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: center;
+    align-self: flex-end;
 }
 
 @media screen and (max-width: 1024px) {
   .cover__title {
-    top: calc(100%*(195/640));
+    /*top: calc(100%*(195/640));*/
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover__title {
-    top: calc(100%*(115/480));
+    /*top: calc(100%*(115/480));*/
   }
 }
 
@@ -37,6 +41,6 @@
     max-width: 288px;
     font-size: 32px;
     line-height: 35px;
-    top: calc(100%*(33/200));
+    /*top: calc(100%*(33/200));*/
   }
 }

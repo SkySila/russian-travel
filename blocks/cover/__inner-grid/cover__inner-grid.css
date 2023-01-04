@@ -1,0 +1,12 @@
+.cover__inner-grid {
+  display: grid;
+  grid-template-rows: repeat(2, minmax(min-content, max-content));
+  grid-template-columns: 1fr;
+  row-gap: 32px;
+}
+
+@media screen and (max-width: 320px) {
+  .cover__inner-grid {
+    row-gap: 16px;
+  }    
+}
