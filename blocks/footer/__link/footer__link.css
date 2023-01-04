@@ -1,6 +1,5 @@
 .footer__link {
   width: min-content;
-  max-height: 18px;
   text-decoration: none;
   color: #fff;
   font-family: "InterRegular", "Arial", "Helvetica", sans-serif;
@@ -28,7 +27,6 @@
 
 @media screen and (max-width: 320px) {
   .footer__link {
-    max-height: 24px;
     font-size: 24px;
     line-height: 1.0;
   }

@@ -1,7 +1,5 @@
 .footer__copyright {
   max-width: 186px;
-  max-height: 16px;
-  display: inline-block;
   color: #fff;
   font-family: "InterRegular", "Arial", "Helvetica", sans-serif;
   font-size: 14px;
@@ -23,7 +21,6 @@
 
 @media screen and (max-width: 320px) {
   .footer__copyright {
-    max-height: 14px;
     line-height: 1.0;
   }
 }
