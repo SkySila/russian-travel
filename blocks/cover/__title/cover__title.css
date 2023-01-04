@@ -3,7 +3,6 @@
     padding: 0;
     max-width: 560px;
     width: 100%;
-    min-height: 152px;
     position: absolute;
     top: calc(100%*(245/740));
     right: 0;
@@ -36,7 +35,6 @@
 @media screen and (max-width: 320px) {
   .cover__title {
     max-width: 288px;
-    min-height: 70px;
     font-size: 32px;
     line-height: 35px;
     top: calc(100%*(33/200));
