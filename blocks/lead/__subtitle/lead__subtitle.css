@@ -29,6 +29,25 @@
   }
 }
 
+@media screen and (max-width: 525px) {
+  .lead__subtitle {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .lead__subtitle {    
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 365px) {
+  .lead__subtitle {   
+    max-width: 333px; 
+    font-size: 18px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .lead__subtitle {
     max-width: 288px;

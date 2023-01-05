@@ -12,7 +12,6 @@
   .cover {
     max-width: 1024px;
     grid-template-columns: calc((100% - 928px)/2) minmax(768px, 1fr) calc((100% - 928px)/2);
-
   }
 }
 
@@ -20,6 +19,40 @@
   .cover {
     max-width: 768px;
     grid-template-columns: 24px minmax(320px, 1fr) 24px;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .cover {
+    max-width: 690px;
+    grid-template-columns: 22px minmax(320px, 1fr) 22px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .cover {
+    max-width: 650px;
+    grid-template-columns: 20px minmax(320px, 1fr) 20px;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .cover {
+    max-width: 525px;
+    grid-template-columns: 18px minmax(320px, 1fr) 18px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .cover {
+    max-width: 380px;
+    grid-template-columns: 16px minmax(320px, 1fr) 16px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .cover {
+    max-width: 340px;
   }
 }
 

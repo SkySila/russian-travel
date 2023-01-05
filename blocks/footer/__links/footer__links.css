@@ -13,7 +13,14 @@
 
 @media screen and (max-width: 768px) {
   .footer__links {
+  }
+}
+
+@media screen and (max-width: 495px) {
+  .footer__links {
     grid-template-columns: repeat(auto-fit, minmax(min-content, max-content));  
+    grid-template-rows: repeat(2, minmax(min-content, max-content));
+    grid-auto-flow: column dense;
   }
 }
 

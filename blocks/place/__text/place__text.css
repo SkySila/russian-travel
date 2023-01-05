@@ -23,6 +23,15 @@
   } 
 }
 
+@media screen and (max-width: 525px) {
+  .place__text {
+    max-width: 489px;
+    row-gap: 25px;
+    grid-column: 2/3;
+    grid-row: 4;
+  } 
+}
+
 @media screen and (max-width: 320px) {
   .place__text {
     max-width: 288px;

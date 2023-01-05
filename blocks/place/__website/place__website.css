@@ -18,6 +18,13 @@
   }
 }
 
+@media screen and (max-width: 525px) {
+  .place__website {
+    max-width: 489px;
+    grid-column: 2/3;
+    grid-row: 2;
+  }
+}
 @media screen and (max-width: 320px) {
   .place__website {
     max-width: 288px;

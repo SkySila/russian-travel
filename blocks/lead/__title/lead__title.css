@@ -25,16 +25,48 @@
 }
 
 @media screen and (max-width: 690px) {
-  .lead__title {    
+  .lead__title {   
+    max-width: 646px;
     font-size: 76px;
     line-height: 80px; 
   }
 }
 
 @media screen and (max-width: 650px) {
-  .lead__title {    
+  .lead__title {  
+    max-width: 610px;  
     font-size: 60px;
     line-height: 64px; 
+  }
+}
+@media screen and (max-width: 550px) {
+  .lead__title {  
+    max-width: 510px;  
+    font-size: 58px;
+    line-height: 62px; 
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .lead__title {    
+    font-size: 54px;
+    line-height: 58px; 
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .lead__title {
+    max-width: 348px;    
+    font-size: 48px;
+    line-height: 52px; 
+  }
+}
+
+@media screen and (max-width: 365px) {
+  .lead__title {
+    max-width: 333px;    
+    font-size: 44px;
+    line-height: 48px; 
   }
 }
 

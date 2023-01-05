@@ -22,10 +22,17 @@
   }
 }
 
+@media screen and (max-width: 525px) {
+  .places {
+    max-width: 525px;
+    row-gap: 60px;
+    grid-column: 1/-1;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .places {
     max-width: 320px;
     row-gap: 50px;
-    grid-column: 1/-1;
   }
 }
