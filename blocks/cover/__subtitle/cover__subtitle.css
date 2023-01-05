@@ -6,16 +6,11 @@
     padding: 0;
     max-width: 360px;
     width: 100%;
-    /*position: absolute;
-    bottom: calc(100%*(245/740));
-    right: 0;
-    left: 0;
-    margin-left: auto;
-    margin-right: auto;*/
     z-index: 1;
     pointer-events: none;
     color: #fff;
-    font-family: "InterRegular", "Arial", "Helvetica", sans-serif;
+    font-family: "Inter", "Arial", "Helvetica", sans-serif;
+    font-weight: 400;
     font-size: 18px;
     line-height: 22px;
     text-align: center;
@@ -29,13 +24,11 @@
 
 @media screen and (max-width: 1024px) {
   .cover__subtitle {
-    /*bottom: calc(100%*(195/640));*/
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover__subtitle {
-    /*bottom: calc(100%*(115/480));*/
   }
 }
 
@@ -44,6 +37,5 @@
     max-width: 288px;
     font-size: 14px;
     line-height: 16px;
-    /*bottom: calc(100%*(33/200));*/
   }
 }
