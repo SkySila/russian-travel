@@ -13,11 +13,13 @@
 @media screen and (max-width: 1024px) {
   .content {
     grid-column: 1/-1;
+    max-width: 1024px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .content {
+    max-width: 768px;
     /*from pixel-perfect*/
     row-gap: 60px;
   }
@@ -25,6 +27,7 @@
 
 @media screen and (max-width: 320px) {
   .content {
+    max-width: 320px;
     /*from pixel-perfect*/
     row-gap: 40px;
   }

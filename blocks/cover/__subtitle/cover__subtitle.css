@@ -20,15 +20,18 @@
     grid-row: 2;
     justify-self: center;
     align-self: flex-start;
+    margin-bottom: 245px;
 }
 
 @media screen and (max-width: 1024px) {
   .cover__subtitle {
+    margin-bottom: 195px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover__subtitle {
+    margin-bottom: 115px;
   }
 }
 
@@ -37,5 +40,6 @@
     max-width: 288px;
     font-size: 14px;
     line-height: 16px;
+    margin-bottom: 33px;
   }
 }

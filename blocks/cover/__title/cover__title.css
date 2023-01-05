@@ -17,15 +17,18 @@
     grid-row: 1;
     justify-self: center;
     align-self: flex-end;
+    margin-top: 245px;
 }
 
 @media screen and (max-width: 1024px) {
   .cover__title {
+    margin-top: 195px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover__title {
+    margin-top: 115px;
   }
 }
 
@@ -34,5 +37,6 @@
     max-width: 288px;
     font-size: 32px;
     line-height: 35px;
+    margin-top: 33px;
   }
 }

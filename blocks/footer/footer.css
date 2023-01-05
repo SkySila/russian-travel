@@ -18,6 +18,8 @@
 @media screen and (max-width: 768px) {
   .footer {
     max-width: 720px;
+    grid-template-rows: repeat(auto-fit, minmax(min-content, max-content));
+    row-gap: 48px;
   }  
 }
 

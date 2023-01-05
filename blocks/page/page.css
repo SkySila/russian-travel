@@ -10,21 +10,21 @@
 
 @media screen and (max-width: 1024px) {
   .page {
-    grid-template-columns: 48px minmax(calc(100% - 96px), 1024px) 48px;
+    grid-template-columns: 48px minmax(calc(100% - 96px), 928px) 48px;
     grid-template-rows: 28px 52px 48px minmax(min-content, max-content) 92px minmax(min-content, max-content) 24px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .page {
-    grid-template-columns: 24px minmax(calc(100% - 48px), 768px) 24px;
+    grid-template-columns: 24px minmax(calc(100% - 48px), 720px) 24px;
     grid-template-rows: 28px 52px 48px minmax(min-content, max-content) 88px minmax(min-content, max-content) 24px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .page {
-    grid-template-columns: 16px minmax(calc(100% - 32px), 320px) 16px;
+    grid-template-columns: 16px minmax(calc(100% - 32px), 288px) 16px;
     grid-template-rows: 16px 42px 48px minmax(min-content, max-content) 64px minmax(min-content, max-content) 24px;
   }
 }

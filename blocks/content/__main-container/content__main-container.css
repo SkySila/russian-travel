@@ -13,13 +13,13 @@
 
 @media screen and (max-width: 1024px) {
   .content__main-container {
-    grid-template-columns: 48px fit-content(928px) 48px;
+    grid-template-columns: calc((100% - 928px)/2) minmax(768px, 1fr) calc((100% - 928px)/2);
   }
 }
   
 @media screen and (max-width: 768px) {
   .content__main-container {
-    grid-template-columns: 24px fit-content(720px) 24px;
+    grid-template-columns: 24px minmax(320px, 1fr) 24px;
     row-gap: 88px;  
   }
 }

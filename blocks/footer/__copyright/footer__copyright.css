@@ -20,6 +20,13 @@
   }
 }
 
+@media screen and (max-width: 681px) {
+  .footer__copyright {
+    grid-row: 2;
+    text-align: start;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .footer__copyright {
     line-height: 1.0;
