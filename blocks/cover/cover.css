@@ -1,24 +1,30 @@
 .cover {
     max-width: 1184px;
     width: 100%;
-    grid-column: 1/-1;
+    grid-row-start: 2;
+    display: grid;
+    grid-template-columns: calc((100% - 984px)/2) minmax(928px, 1fr) calc((100% - 984px)/2);
+    grid-template-rows: minmax(min-content, max-content);
     position: relative;
 }
 
 @media screen and (max-width: 1024px) {
   .cover {
     max-width: 1024px;
+    grid-template-columns: 48px fit-content(928px) 48px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover {
     max-width: 768px;
+    grid-template-columns: 24px fit-content(720px) 24px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover {
     max-width: 320px;
+    grid-template-columns: 16px fit-content(320px) 16px;
   }
 }
