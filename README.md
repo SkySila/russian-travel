@@ -16,4 +16,4 @@ Grid layout, flexbox адаптивная вёрстка, абсолютное �
 
 **Ссылка этого проекта на GitHub Pages**
 
-https://github.com/SkySila/russian-travel/settings/pages#:~:text=https%3A//skysila.github.io/russian%2Dtravel/
+https://skysila.github.io/russian-travel/
