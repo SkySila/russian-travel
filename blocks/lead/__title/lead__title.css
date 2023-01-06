@@ -34,14 +34,14 @@
 
 @media screen and (max-width: 650px) {
   .lead__title {  
-    max-width: 610px;  
+    max-width: 610px;
     font-size: 60px;
     line-height: 64px; 
   }
 }
 @media screen and (max-width: 550px) {
   .lead__title {  
-    max-width: 510px;  
+    max-width: 510px;
     font-size: 58px;
     line-height: 62px; 
   }
