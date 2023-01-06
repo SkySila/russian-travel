@@ -13,7 +13,13 @@
 
 @media screen and (max-width: 1024px) {
   .content__main-container {
-    grid-template-columns: calc((100% - 928px)/2) minmax(768px, 1fr) calc((100% - 928px)/2);
+    grid-template-columns: 48px minmax(768px, 1fr) 48px;
+  }
+}
+
+@media screen and (max-width: 864px) {
+  .content__main-container {
+    grid-template-columns: 24px minmax(320px, 1fr) 24px;
   }
 }
   
