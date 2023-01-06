@@ -15,7 +15,7 @@
   } 
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 925px) {
   .place__text {
     max-width: 400px;
     min-width: 340px;
