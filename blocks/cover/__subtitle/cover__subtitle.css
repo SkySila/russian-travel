@@ -50,24 +50,7 @@
   }
 }
 
-@media screen and (max-width: 355px) {
-  .cover__subtitle {
-    max-width: 323px;
-    font-size: 15px;
-    line-height: 19px;
-    margin-bottom: 60px;
-  }
-}
-
-@media screen and (max-width: 340px) {
-  .cover__subtitle {
-    max-width: 308px;
-    line-height: 17px;
-    margin-bottom: 50px;
-  }
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 352px) {
   .cover__subtitle {
     max-width: 288px;
     font-size: 14px;

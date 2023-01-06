@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   margin-bottom: 12px;
-  max-width: 456px;
   width: 100%;
   color: #aaa;
   font-family: "Inter", "Arial", "Helvetica", sans-serif;
@@ -22,12 +21,10 @@
 
 @media screen and (max-width: 768px) {
   .place__url-heading {
-    max-width: 352px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 352px) {
   .place__url-heading {
-    max-width: 288px;
   }
 }

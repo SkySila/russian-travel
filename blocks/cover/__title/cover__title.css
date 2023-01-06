@@ -55,25 +55,7 @@
   }
 }
 
-@media screen and (max-width: 355px) {
-  .cover__title {
-    max-width: 323px;
-    font-size: 40px;
-    line-height: 44px;
-    margin-top: 60px;
-  }
-}
-
-@media screen and (max-width: 340px) {
-  .cover__title {
-    max-width: 308px;
-    font-size: 36px;
-    line-height: 40px;
-    margin-top: 50px;
-  }
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 352px) {
   .cover__title {
     max-width: 288px;
     font-size: 32px;

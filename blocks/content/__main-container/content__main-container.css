@@ -52,7 +52,7 @@
   }
 }
   
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 352px) {
   .content__main-container {
     grid-template-columns: 16px fit-content(320px) 16px;
     row-gap: 64px;  

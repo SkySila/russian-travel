@@ -1,7 +1,6 @@
 .place__paragraph {
   margin: 0;
   padding: 0;
-  max-width: 484px;
   width: 100%;
   color: #fff;
   text-align: left;
@@ -15,13 +14,11 @@
 
 @media screen and (max-width: 1024px) {
   .place__paragraph {
-    max-width: 456px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place__paragraph {
-    max-width: 352px;
     font-size: 16px;
     line-height: 26px;
   }
@@ -29,12 +26,10 @@
 
 @media screen and (max-width: 525px) {
   .place__paragraph {
-    max-width: 489px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 352px) {
   .place__paragraph {
-    max-width: 288px;
   }
 }

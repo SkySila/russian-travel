@@ -12,7 +12,6 @@
 @media screen and (max-width: 1024px) {
   .place__text {
     max-width: 456px;
-    row-gap: 27px;
   } 
 }
 
@@ -26,17 +25,13 @@
 @media screen and (max-width: 525px) {
   .place__text {
     max-width: 489px;
-    row-gap: 25px;
     grid-column: 2/3;
     grid-row: 4;
   } 
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 352px) {
   .place__text {
     max-width: 288px;
-    row-gap: 25px;
-    grid-column: 2/3;
-    grid-row: 4;
   } 
 }

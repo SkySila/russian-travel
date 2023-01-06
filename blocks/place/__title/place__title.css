@@ -28,15 +28,6 @@
     font-size: 42px;
     line-height: 46px;
   }
-  .place:nth-of-type(4) > .place__title {
-    width: max-content;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .place:nth-of-type(4) > .place__title {
-    width: min-content;
-  }
 }
 
 @media screen and (max-width: 525px) {
@@ -46,11 +37,10 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 352px) {
   .place__title {
     max-width: 288px;
     width: max-content;
-    grid-column: 2/3;
     font-size: 32px;
     line-height: 35px;
   }
