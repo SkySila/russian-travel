@@ -25,6 +25,7 @@
 @media screen and (max-width: 768px) {
   .place__text {
     max-width: 352px;
+    min-width: auto;
     row-gap: 25px;
   } 
 }
@@ -40,5 +41,6 @@
 @media screen and (max-width: 352px) {
   .place__text {
     max-width: 288px;
+    min-width: auto;
   } 
 }

@@ -1,5 +1,4 @@
 .footer__link {
-  width: min-content;
   text-decoration: none;
   color: #fff;
   font-family: "Inter", "Arial", "Helvetica", sans-serif;
@@ -16,19 +15,15 @@
   opacity: 0.8;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 495px) {
   .footer__link {
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .footer__link {
+    font-size: 20px;
+    line-height: 1.0;
   }
 }
 
 @media screen and (max-width: 320px) {
   .footer__link {
     font-size: 24px;
-    line-height: 1.0;
   }
 }

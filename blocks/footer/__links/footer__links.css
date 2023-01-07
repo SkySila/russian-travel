@@ -1,33 +1,20 @@
 .footer__links {
-  max-width: max-content;
   display: grid;
   grid-template-columns: repeat(5, minmax(min-content, max-content));
   grid-template-rows: repeat(1, minmax(min-content, max-content));
   column-gap: 18px;
 }
 
-@media screen and (max-width: 1024px) {
-  .footer__links {
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .footer__links {
-  }
-}
-
 @media screen and (max-width: 495px) {
   .footer__links {
-    grid-template-columns: repeat(auto-fit, minmax(min-content, max-content));
-    grid-template-rows: repeat(2, minmax(min-content, max-content));
-    grid-auto-flow: column dense;
+    grid-template-columns: repeat(1, minmax(min-content, max-content));
+    grid-template-rows: repeat(5, minmax(min-content, max-content));
+    gap: 36px 0;
   }
 }
 
 @media screen and (max-width: 320px) {
   .footer__links {
-    grid-template-columns: repeat(1, minmax(min-content, max-content));
-    grid-template-rows: repeat(5, minmax(min-content, max-content));
     gap: 32px 0;
   }
 }

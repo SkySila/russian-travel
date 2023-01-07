@@ -5,6 +5,7 @@
   align-items: center;
   background-image: url(../../../images/cover__background.png);
   background-size: cover;
+  background-position: center;
   max-width: 1184px;
   width: 100%;
   min-height: 740px;
